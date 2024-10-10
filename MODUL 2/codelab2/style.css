@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 5%;
+    background-color: rgb(19, 99, 61);
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: black;
+    color: teal;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }

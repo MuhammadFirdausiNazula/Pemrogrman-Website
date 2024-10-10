@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist & Artists - BJ Music</title>
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h1><i class="fas fa-music"></i> BJ MUSIC</h1>
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="categories.html"><i class="fas fa-th-large"></i> Categories</a></li>
+            <li><a href="create-playlist.html"><i class="fas fa-plus-circle"></i> Create Playlist</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Toggle Playlist/Artist -->
+        <div class="toggle-section">
+            <button class="toggle-button active">Playlists</button>
+            <button class="toggle-button">Artists</button>
+        </div>
+
+        <!-- Search & Recents -->
+        <div class="top-bar">
+            <input type="text" placeholder="Search" class="search-bar">
+            <div class="recents">
+                <span>Recents</span>
+                <i class="fas fa-list"></i>
+            </div>
+        </div>
+
+        <!-- Playlist Section -->
+        <div class="list-section">
+            <div class="list-item">
+                <img src="img/love.jpg" alt="Liked Songs" class="item-cover">
+                <div class="item-details">
+                    <p class="item-title">Liked Songs</p>
+                    <p class="item-subtitle">Playlist </p>
+                </div>
+            </div>
+
+            <!-- Artists Section -->
+            <div class="list-item">
+                <img src="img/Selena Gomez.jpeg" alt="Selena Gomez" class="item-cover">
+                <div class="item-details">
+                    <p class="item-title artist-name">Selena Gomez</p>
+                    <p class="item-subtitle">Artist</p>
+                </div>
+            </div>
+            <div class="list-item">
+                <img src="img/Tate McRae.jpeg" alt="Tate McRae" class="item-cover">
+                <div class="item-details">
+                    <p class="item-title artist-name">Tate McRae</p>
+                    <p class="item-subtitle">Artist</p>
+                </div>
+            </div>
+            <div class="list-item">
+                <img src="img/Ariana Grande.jpeg" alt="Ariana" class="item-cover">
+                <div class="item-details">
+                    <p class="item-title artist-name">Ariana Grande</p>
+                    <p class="item-subtitle">Artist</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 BJ Music. All rights reserved.</p>
+        <p>Designed with by BJ Music Team</p>
+    </footer>
+
+</body>
+</html>

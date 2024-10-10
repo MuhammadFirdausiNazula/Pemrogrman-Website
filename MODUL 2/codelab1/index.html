@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Penjumlahan Bilangan</h1>
+
+      <form id="myForm" onsubmit="return false;">
+        <div class="input-group">
+          <label for="angka1">Bilangan Pertama</label>
+          <input type="text" id="angka1" placeholder="Masukkan angka" />
+        </div>
+
+        <div class="input-group">
+          <label for="angka2">Bilangan Kedua</label>
+          <input type="text" id="angka2" placeholder="Masukkan angka" />
+        </div>
+
+        <div class="buttons">
+          <button type="submit" onclick="tambah()">Jumlahkan</button>
+          <input type="button" value="Ulang" onclick="ngulang()" />
+        </div>
+
+        <div id="hasil"></div>
+      </form>
+    </div>
+  </body>
+</html>
