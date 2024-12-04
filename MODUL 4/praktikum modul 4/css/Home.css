@@ -1,0 +1,142 @@
+/* Reset Semua Elemen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font dan Background Umum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+    border-radius: 4px;
+}
+
+/* Main Section */
+main {
+    padding: 40px 20px;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 1.75rem;
+}
+
+/* Product List */
+#product-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#product-list li {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+#product-list li:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+#product-list li h3 {
+    margin-top: 0;
+    color: #0073e6;
+    font-size: 1.25rem;
+}
+
+/* Footer */
+footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Responsivitas */
+@media (max-width: 768px) {
+    /* Adjust Header Padding */
+    header {
+        padding: 15px 0;
+    }
+
+    /* Navigation */
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li a {
+        font-size: 1.2rem;
+        padding: 12px;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Main Section */
+    main {
+        padding: 20px;
+    }
+
+    /* Product List */
+    #product-list li {
+        padding: 15px;
+    }
+
+    /* Footer */
+    footer p {
+        font-size: 1rem;
+    }
+}
